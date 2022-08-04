@@ -9,7 +9,7 @@ export const getLinkInfo = async (req, res) => {
 console.log(url)
     if (url) {
       const data = await vdp(url)
-     res.json(data);
+     res.json(url);
     }
   } catch (error) {
     console.log(error);
