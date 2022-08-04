@@ -15,11 +15,6 @@ console.log(url)
     console.log(error);
   }
 
-
-
-//    npm i social-downloader-cherry 
-//    npm i all-video-downloader  
-//    npm i social_media_downloader  
   
     // The path of the downloaded file on our machine
    if (downloadUrl) {
